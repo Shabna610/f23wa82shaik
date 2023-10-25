@@ -14,7 +14,7 @@ router.get("/", function (req, res, next) {
 
         let x = req.query.x;
 
-        var arr = [Math.pow(x), Math.sign(x), Math.tanh(x), Math.trunc(x)];
+        var arr = [Math.pow(x), Math.sign(x), Math.tanh(x)];
 
         var funObj = {
 
@@ -24,12 +24,12 @@ router.get("/", function (req, res, next) {
 
             2: "Math.tanh()",
 
-            3: "Math.trunc()",
+           
 
         };
 
         
-        var arr = [Math.pow(x), Math.sign(x), Math.tanh(x), Math.trunc(x)];
+        var arr = [Math.pow(x), Math.sign(x), Math.tanh(x)];
 
         let response1 = `
 
@@ -57,7 +57,7 @@ router.get("/", function (req, res, next) {
 
             2: "Math.tanh()",
 
-            3: "Math.trunc()",
+           
         };
 
         
