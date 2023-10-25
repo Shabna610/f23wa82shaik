@@ -32,7 +32,4 @@ router.get("/", function (req, res, next) {
         res.send(response);
     }
 });
-
- 
-
 module.exports = router;
